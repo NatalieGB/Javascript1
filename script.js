@@ -1,3 +1,4 @@
+"use strict";
 //1
 
 let user  = {
@@ -9,7 +10,7 @@ let user  = {
 
 console.log(user.studentStatus);
 
-console.log("-----")
+console.log("-----");
 
 //2
 let cars = ['alfa-romeo', 'maserati', 'lamborghini', 'ferrari', 'bugatti'];
@@ -17,7 +18,7 @@ let cars = ['alfa-romeo', 'maserati', 'lamborghini', 'ferrari', 'bugatti'];
 for(let i=0; i<cars.length; i++){
     console.log(cars[i]);
 }
-console.log("-----")
+console.log("-----");
 
 let i=0;
 while (i<cars.length) {
@@ -28,7 +29,7 @@ console.log("-----")
 for(let x of cars) {
     console.log(x);
 }
-console.log("-----")
+console.log("-----");
 //3
 
 let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
@@ -37,7 +38,7 @@ for (let item of numbers){
         console.log(item);
     }
 }
-console.log("-----")
+console.log("-----");
 //4
 
 let user1 = {
@@ -76,7 +77,7 @@ for (let item of array1) {
         console.log(item);
     }
 }
-console.log('------')
+console.log('------');
 for (let item of array1) {
     if (item%2!==0) {
         console.log(item);
@@ -98,7 +99,7 @@ function positiveNums(...numbers) {
 let resultSum = positiveNums(2, -9, 5, 11, -30, 100, -8, -11, -4, 5, -6, 8);
 console.log(resultSum);
 
-console.log('---------');
+console.log('------');
 
 //8
 
